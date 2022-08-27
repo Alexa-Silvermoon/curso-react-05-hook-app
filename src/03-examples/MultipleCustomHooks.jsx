@@ -16,7 +16,7 @@ export const MultipleCustomHooks = () => {
     return(
 
         <>
-            <h1>BreakingBad Quotes</h1>
+            <h1>BreakingBad Quotes - By Alexander Martinez Millan</h1>
             <hr />
 
             

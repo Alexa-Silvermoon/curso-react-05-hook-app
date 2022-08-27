@@ -21,13 +21,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* <CounterWithCustomHook></CounterWithCustomHook> */}
         {/* <SimpleForm></SimpleForm> */}
         {/* <FormWithCustomHook></FormWithCustomHook> */}
-        {/* <MultipleCustomHooks></MultipleCustomHooks> */}
+        <MultipleCustomHooks></MultipleCustomHooks> {/* Breaking bad API quotes */}
         {/* <FocusScreen></FocusScreen> */}
         {/* <Layout></Layout> */}
         {/* <Memorize></Memorize> */}
         {/* <MemoHook></MemoHook> */}
         {/* <CallbackHook></CallbackHook> */}
-        <Padre></Padre>
+        {/* <Padre></Padre> */}
     </React.StrictMode>
 
 );

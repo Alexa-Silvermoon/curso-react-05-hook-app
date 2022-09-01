@@ -13,6 +13,8 @@ import { Memorize } from './06-memos/Memorize';
 import { MemoHook } from './06-memos/MemoHook';
 import { CallbackHook } from './06-memos/CallbackHook';
 import { Padre } from './07-tarea-memo/Padre';
+// import './08-useReducer/intro-reducer';
+import { TodoApp } from './08-useReducer/TodoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -21,13 +23,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* <CounterWithCustomHook></CounterWithCustomHook> */}
         {/* <SimpleForm></SimpleForm> */}
         {/* <FormWithCustomHook></FormWithCustomHook> */}
-        <MultipleCustomHooks></MultipleCustomHooks> {/* Breaking bad API quotes */}
+        {/* <MultipleCustomHooks></MultipleCustomHooks> Breaking bad API quotes */}
         {/* <FocusScreen></FocusScreen> */}
         {/* <Layout></Layout> */}
         {/* <Memorize></Memorize> */}
         {/* <MemoHook></MemoHook> */}
         {/* <CallbackHook></CallbackHook> */}
         {/* <Padre></Padre> */}
+        <TodoApp></TodoApp>
     </React.StrictMode>
 
 );

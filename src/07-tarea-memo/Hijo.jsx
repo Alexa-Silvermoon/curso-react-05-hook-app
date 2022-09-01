@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hijo = React.memo( ({ numero, incrementar }) => {
 
-    console.log('  Me volví a generar :(  ');
+    console.log('  Me volví a generar :(  '); //TODO: el objetivo esque esto lo se imprima una vez
 
     return (
         <button

@@ -1,5 +1,6 @@
 # Notas
-Esta es una enseñanza sobre useState, useEffect, useFetch, useRef, useLayout, useCallback, React.memo usando react yarn vite
+Esta es una enseñanza sobre useState, useEffect, useFetch, useRef, useLayout, useCallback, React.memo, useReducer usando react yarn vite
+incluye app de TODOs
 
 No olvidar reconstruir la carpeta node_modules con el comando:
 ```

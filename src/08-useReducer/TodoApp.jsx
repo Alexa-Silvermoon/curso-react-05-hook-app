@@ -93,7 +93,7 @@ export const TodoApp = () => {
   return (
 
     <>
-        <h1>TodoApp { todosCount }, <small>Pendientes: { pendingTodosCount }</small> </h1>
+        <h1>TodoApp { todosCount }, <small>Pendientes: { pendingTodosCount } - Made By: Alexander Martinez Millan</small> </h1>
         <hr />
 
         <div className="row">

@@ -11,6 +11,7 @@ export const TodoItem = ( { todo, onDeleteTodo, onToggleTodo } ) => {
           // className={ ` align-self-center ${ todo.done && 'text-decoration-line-through' } `}/* tachar si la clase ya esta hecha (true) */
           className={ ` align-self-center ${ ( todo.done ) ? 'text-decoration-line-through' : '' } `}/* tachar si la clase ya esta hecha (true) */
           onClick={ () => onToggleTodo( todo.id ) }
+          aria-label="span" // esta linea se usara para TodoItem.test.jsx
 
           >{ todo.description }</span>
 

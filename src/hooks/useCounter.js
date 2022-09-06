@@ -7,14 +7,16 @@ export const useCounter = ( initialValue = 1 ) => {
 
     const increment = ( value = 1 ) => {
 
-        setCounter( counter + value );
+        // setCounter( counter + value );
+        setCounter( ( current ) => current + value ); // para pruebas en useCounter.test.js
     }
 
     const decrement = ( value = 1 ) => {
 
         if ( counter === 0) return; // no deja que se baje de 0, genial para carrito de compras
 
-        setCounter( counter - value );
+        // setCounter( counter - value );
+        setCounter( ( current ) => current - value ); // para pruebas en useCounter.test.js
     }
 
     const reset = () => {

@@ -43,7 +43,8 @@ export const MultipleCustomHooks = () => {
                 : <Quote author={ author } quote={ quote }></Quote>
             }
 
-            <button className="btn btn-primary" onClick={ () => increment() }>
+            {/* <button className="btn btn-primary" onClick={ () => increment() }> */}
+            <button className="btn btn-primary" disabled={ isLoading } onClick={ () => increment() }>
                 Siguiente Nota
             </button>
 
